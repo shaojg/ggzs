@@ -4,7 +4,7 @@ document.documentElement.scrollTop = 0;
 if(typeof $ != 'undefined' && document.body){
 	loadback();
 }else{
-	loadJs("//bact.oss-cn-beijing.aliyuncs.com/js/jquery.min.js", loadback);
+	loadJs("jquery.min.js", loadback);
 }
 
 function loadback(){
@@ -41,7 +41,7 @@ function render(url) {
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?1558ce92b051bd98784c908384d63dca";
+  hm.src = "https://hm.baidu.com/hm.js?52741104fddccfc541bb0a0afa6e429c";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
