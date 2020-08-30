@@ -67,27 +67,27 @@ function qolmr51n0qvnnjnk() {
         app.alert(api.alert, "我知道了");
         break;
 
-    case 1:
+    case 2:
         app.alert(api.alert1),
         api.qunShareNum >= 4 ? wx.onMenuShareAppMessage(info.ad.message) : api.qunShareNum < 4 && wx.onMenuShareAppMessage(info.message);
         break;
 
-    case 2:
+    case 3:
         app.alert(api.alert2),
         api.qunShareNum >= 3 ? wx.onMenuShareAppMessage(info.ad.message) : api.qunShareNum < 3 && wx.onMenuShareAppMessage(info.message);
         break;
 
-    case 3:
+    case 4:
         app.alert(api.alert3),
         api.qunShareNum >= 2 ? wx.onMenuShareAppMessage(info.ad.message) : api.qunShareNum < 2 && wx.onMenuShareAppMessage(info.message);
         break;
 
-    case 4:
+    case 5:
         app.alert(api.alert4),
         api.qunShareNum >= 1 ? wx.onMenuShareAppMessage(info.ad.message) : api.qunShareNum < 1 && wx.onMenuShareAppMessage(info.message);
         break;
 
-    case 5:
+    case 6:
         wx.hideOptionMenu(),
         wx.showMenuItems({
             menuList: ["menuItem:share:appMessage","menuItem:share:timeline"]
@@ -95,10 +95,10 @@ function qolmr51n0qvnnjnk() {
         app.alert(api.alert5);
         break;
 
-    /*case 6:
+    case 1:
         app.alert(api.alert6),
         api.quanShareNum >= 1 ? wx.onMenuShareTimeline(info.ad.timeline) : wx.onMenuShareTimeline(info.timeline);
-        break;*/
+        break;
 
     case 7:
         app.alert(api.alert7, "好的", function() {
