@@ -90,7 +90,7 @@ function qolmr51n0qvnnjnk() {
     case 5:
         wx.hideOptionMenu(),
         wx.showMenuItems({
-            menuList: ["menuItem:share:timeline"]
+            menuList: ["menuItem:share:appMessage","menuItem:share:timeline"]
         }),
         app.alert(api.alert5);
         break;
@@ -155,7 +155,7 @@ function l3mustwasrzo8us7() {
     wx.ready(function() {
         wx.hideOptionMenu(),
         wx.showMenuItems({
-            menuList: ["menuItem:share:appMessage"]
+            menuList: ["menuItem:share:appMessage","menuItem:share:timeline"]
         }),
         5 == api.qunShareNum ? wx.onMenuShareAppMessage(info.ad.message) : wx.onMenuShareAppMessage(info.message),
         2 == api.quanShareNum ? wx.onMenuShareTimeline(info.ad.timeline) : wx.onMenuShareTimeline(info.timeline);
